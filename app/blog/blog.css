@@ -1,0 +1,4 @@
+.posts {
+  height: calc(100vh - 250px); /* Задайте бажану висоту */
+  overflow: auto;
+}
