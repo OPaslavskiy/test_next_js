@@ -8,6 +8,8 @@ async function getData() {
     }
   });
 
+  if (!response.ok) throw new Error('Ooops! Bad request')
+
   return response.json();
 }
 
