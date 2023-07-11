@@ -166,3 +166,8 @@ li {
   margin: 20px;
   text-decoration: none;
 }
+
+.active {
+  color: rgb(100, 37, 143);
+  font-weight: 600;
+}
