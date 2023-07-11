@@ -5,6 +5,7 @@ import '../blog/blog.css';
 import { useEffect, useState } from 'react';
 import { getAllPosts } from '@/services/getPosts';
 import { Posts } from '@/components/Posts';
+import { PostSearch } from '@/components/PostSeacrch';
 
 export const metadata: Metadata = {
   title: 'Blog | Next App',
@@ -22,6 +23,7 @@ export default function Blog() {
   return (
     <>
       <h1>Blog page</h1>
+      <PostSearch onSearch={setPosts} />
       {loading ? (
         <h3 className="container">Loading...</h3>
       ) : (
