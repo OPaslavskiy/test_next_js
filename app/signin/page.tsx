@@ -6,6 +6,7 @@ export default async function Signin() {
     <div className="container">
       <h1>SignIn</h1>
       <GoogleButton />
+
       <SignInForm />
     </div>
   );
