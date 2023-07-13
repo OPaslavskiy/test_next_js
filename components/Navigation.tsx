@@ -39,7 +39,7 @@ const Navigation = ({ navLinks }: Props) => {
           Sing Out
         </Link>
       ) : (
-        <Link href="/api/auth/signin">Sing In</Link>
+        <Link href="/signin">Sing In</Link>
       )}
     </>
   );
