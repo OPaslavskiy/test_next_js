@@ -24,7 +24,7 @@ export const authConfig: AuthOptions = {
 
         if (currentUser && currentUser.password === credentials.password) {
           const { password, ...userWithputPass } = currentUser;
-
+          console.log(`userWithputPass===>`, userWithputPass);
           return userWithputPass as User;
         }
 
